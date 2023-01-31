@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1047892085502",
+    "project_id": "ahun-chat",
+    "storage_bucket": "ahun-chat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1047892085502:android:2ede4fb2b0b6c6a632f3af",
+        "android_client_info": {
+          "package_name": "com.mini.ahun"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1047892085502-gj4dad8ofp2gd5m38uajqal7su8opbfg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mini.ahun",
+            "certificate_hash": "8e67233627f821c6741bce67f3a4e846535ef9e7"
+          }
+        },
+        {
+          "client_id": "1047892085502-2g9aj5jl6a2ssdd0dplkgc6u4elpuiua.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIdS_gIrpAbBAuzspigR_7XxYf8gjCAXc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1047892085502-2g9aj5jl6a2ssdd0dplkgc6u4elpuiua.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
