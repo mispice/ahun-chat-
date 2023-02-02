@@ -8,4 +8,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="ahun_green">#45a19a</color>
+    <color name="tranny">#00FFFFFF</color>
+    <color name="mint_cream">#EFF7F6</color>
+
 </resources>
