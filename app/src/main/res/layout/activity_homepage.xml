@@ -96,5 +96,21 @@
 
     </androidx.appcompat.widget.Toolbar>
 
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigation_view"
+        android:layout_width="wrap_content"
+        android:padding="2dp"
+        android:layout_height="1000dp"
+        android:layout_gravity="start"
+        android:visibility="invisible"
+        app:itemTextColor="@color/mint_cream"
+        app:itemIconTint="@color/white"
+        app:menu="@menu/menu"
+        app:layout_constraintStart_toStartOf="@id/toolbar"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        />
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

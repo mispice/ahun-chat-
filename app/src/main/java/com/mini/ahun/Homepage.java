@@ -10,15 +10,18 @@ import android.view.View;
 import android.widget.EditText;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.android.material.navigation.NavigationView;
 
 public class Homepage extends AppCompatActivity {
 
 
 //    initialize components
     int state = 0;
+    int state_hamburger = 0;
     EditText search_bar;
     ConstraintLayout rootlayout;
     FloatingActionButton search, hamburger_menu;
+    NavigationView navigationView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,6 +31,7 @@ public class Homepage extends AppCompatActivity {
         search = findViewById(R.id.search_button);
         hamburger_menu = findViewById(R.id.hamburger_menu);
         search_bar = findViewById(R.id.search_bar);
+        navigationView = findViewById(R.id.navigation_view);
 
 //        onclick listener for the search button
         search.setOnClickListener(view -> {
@@ -47,6 +51,14 @@ public class Homepage extends AppCompatActivity {
         hamburger_menu.setOnClickListener(view -> {
             hamburger_menu.setBackgroundTintList(ColorStateList.valueOf(Color.rgb(69,161,	154)));
             hamburger_menu.setBackgroundTintList(ColorStateList.valueOf(Color.rgb(239,	247,	246)));
+            if(state_hamburger == 0){
+                navigationView.setVisibility(View.VISIBLE);
+                state_hamburger = 1;
+            }
+            else if(state_hamburger == 1){
+                navigationView.setVisibility(View.INVISIBLE);
+                state_hamburger = 0;
+            }
         });
 
     }
