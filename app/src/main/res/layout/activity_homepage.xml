@@ -110,6 +110,23 @@
         app:layout_constraintTop_toBottomOf="@id/toolbar"
         />
 
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigation_view_new_chat"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="200dp"
+        android:layout_gravity="start"
+        android:visibility="invisible"
+        app:itemTextColor="@color/mint_cream"
+        app:itemIconTint="@color/white"
+        app:menu="@menu/new_chat"
+        app:elevation="0dp"
+        android:elevation="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+
 
 
 
